@@ -12,6 +12,14 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+Create a .env file at root level and add your reend api to start sending emails
+
+#env file template
+
+RESEND_API_KEY = "resend_api_key"
+RESEND_FROM_EMAIL =  onboarding@resend.dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
