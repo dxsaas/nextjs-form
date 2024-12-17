@@ -39,7 +39,6 @@ const ContactForm = () => {
 
   const onSubmit = (data: z.infer<typeof formSchema>) => {
     send(data);
-    console.log(data);
   };
   return (
     <Card className="w-full max-w-md mx-auto">
